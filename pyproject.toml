@@ -1,0 +1,73 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastapi-security-headers"
+version = "0.1.0"
+description = "High-performance, zero-config OWASP security headers middleware for FastAPI and Starlette."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Alejandro Tacoronte González", email = "alejandrotacorontegnlez@gmail.com" }
+]
+keywords = [
+    "fastapi",
+    "security",
+    "security-headers",
+    "owasp",
+    "middleware",
+    "asgi",
+    "starlette",
+    "hsts",
+    "csp",
+    "clickjacking",
+    "xss",
+    "nosniff"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Security",
+    "Topic :: Internet :: WWW/HTTP :: WSGI :: Middleware",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Framework :: FastAPI",
+]
+dependencies = []
+
+[project.optional-dependencies]
+fastapi = [
+    "fastapi>=0.100.0",
+]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "httpx>=0.25.0",
+    "fastapi>=0.100.0",
+    "build",
+    "twine",
+    "ruff>=0.4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/alejandrotg-code/fastapi-security-headers"
+Repository = "https://github.com/alejandrotg-code/fastapi-security-headers"
+"Bug Tracker" = "https://github.com/alejandrotg-code/fastapi-security-headers/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --strict-markers"
+asyncio_mode = "auto"
