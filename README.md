@@ -1,9 +1,9 @@
 # 🛡️ FastAPI Security Headers
 
 [![CI](https://github.com/alejandrotg-code/fastapi-security-headers/actions/workflows/ci.yml/badge.svg)](https://github.com/alejandrotg-code/fastapi-security-headers/actions/workflows/ci.yml)
-[![PyPI version](https://img.shields.io/pypi/v/fastapi-security-headers.svg)](https://pypi.org/project/fastapi-security-headers/)
-[![Python versions](https://img.shields.io/pypi/pyversions/fastapi-security-headers.svg)](https://pypi.org/project/fastapi-security-headers/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![PyPI version](https://img.shields.io/pypi/v/fastapi-security-headers?color=blue&logo=pypi&logoColor=white)](https://pypi.org/project/fastapi-security-headers/)
+[![Python versions](https://img.shields.io/pypi/pyversions/fastapi-security-headers?logo=python&logoColor=white)](https://pypi.org/project/fastapi-security-headers/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://github.com/alejandrotg-code/fastapi-security-headers)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-FF5E5B?logo=kofi&logoColor=white)](https://ko-fi.com/alejandrotg)
 
