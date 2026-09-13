@@ -70,4 +70,3 @@ where = ["src"]
 testpaths = ["tests"]
 python_files = ["test_*.py"]
 addopts = "-v --strict-markers"
-asyncio_mode = "auto"
